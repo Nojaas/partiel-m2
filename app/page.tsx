@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Header from "../components/Header";
-import Sidebar from "../components/Sidebar";
-import Dashboard from "../components/Dashboard";
-import Clients from "../components/Clients";
-import Analytics from "../components/Analytics";
+import Header from "components/Header";
+import Sidebar from "components/Sidebar";
+import Dashboard from "components/Dashboard";
+import Clients from "components/Clients";
+import Analytics from "components/Analytics";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("dashboard");
